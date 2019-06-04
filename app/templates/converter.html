@@ -1,0 +1,18 @@
+{% block content %}
+    <h1>Will's Wonderful Converter</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.types.label }}<br>
+            {{ form.types }}
+        </p>
+        <p>
+            Price ($) per: {{ form.types.data  }}<br>
+            {{ form.value(size=10) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+
+        <p>Price per Kg: {{ conversionKg }}</p>
+        <p>Price per Lb: {{ conversionLb }}</p>
+    </form>
+{% endblock %}
