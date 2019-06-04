@@ -2,3 +2,4 @@ Flask==1.0.3
 Flask-WTF==0.14.2
 gunicorn==19.9.0
 psycopg2==2.8.2
+Flask-Bootstrap==3.3.7.1
