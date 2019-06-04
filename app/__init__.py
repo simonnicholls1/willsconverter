@@ -6,4 +6,3 @@ app = Flask(__name__)
 
 from app import routes
 app.config['SECRET_KEY'] = 'you-will-never-guess'
-app.run()
